@@ -11,8 +11,8 @@ int n=input.nextInt();
 Random random=new Random();
 System.out.println("Enter the array elements");
 for(int i=0;i<n;i++)
-a[i]=input.nextInt();
-//a[i]=random.nextInt(100000);
+//a[i]=input.nextInt();
+a[i]=random.nextInt(100000);
 a=Arrays.copyOf(a,n);
 Arrays.sort(a);
 System.out.println("INput Array");
