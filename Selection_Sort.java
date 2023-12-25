@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
-public class selectionsort {
+public class Selection_Sort{
 static final int MAX=200000;
 static int[] a=new int[MAX];
 public static void main(String[] args) {
@@ -23,8 +23,7 @@ System.out.println("\nSorted Array");
 for(int i=0;i<n;i++)
 System.out.println(a[i]+" ");
 System.out.println();
-System.out.println("The complexity in ms for n= "+n+" is 
-"+(double)elapsedTime/1000000);
+System.out.println("The complexity in ms for n= "+n+" is "+(double)elapsedTime/1000000);
 input.close();
 }
 public static void SelectionSortAlgorithm(int low,int high)
