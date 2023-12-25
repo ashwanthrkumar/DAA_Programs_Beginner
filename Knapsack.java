@@ -16,7 +16,7 @@ KObject[] obj = new KObject[n];
 for(int i = 0; i<n;i++) 
 obj[i] = new KObject();// allocate memory for members 
 ReadObjects(obj); 
-Knapsack(obj); 
+Knapsack1(obj); 
 scanner.close(); 
 } 
 static void ReadObjects(KObject obj[]) {
@@ -42,7 +42,7 @@ obj[j+1] = temp;
 } 
 scanner.close(); 
 } 
-static void Knapsack(KObject kobj[]) { 
+static void Knapsack1(KObject kobj[]) { 
 float x[] = new float[MAX]; 
 float totalprofit; 
 int i; 
